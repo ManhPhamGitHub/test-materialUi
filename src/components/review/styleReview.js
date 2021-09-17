@@ -41,7 +41,7 @@ const styleReview=makeStyles((theme)=>({
     bigVideo:{
         height:"170%",
         transform:" translateY(-25%)",
-        [theme.breakpoints.down('sm')]: {
+        [theme.breakpoints.down('xs')]: {
             height:"100%",
             transform:" translateY(0%)"
         }
